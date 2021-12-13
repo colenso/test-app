@@ -1,0 +1,11 @@
+{{page-title "Login"}}
+<div
+  {{did-insert this.setIsReady}}
+>
+  {{log this.isReady}}
+  {{#if this.isReady}}
+    Page is ready now
+  {{/if}}
+</div>
+
+{{outlet}}
